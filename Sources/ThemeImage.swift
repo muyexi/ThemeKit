@@ -446,9 +446,6 @@ open class ThemeImage: NSImage {
         }
     }
 
-    override open func cancelIncrementalLoad() {
-        resolvedThemeImage.cancelIncrementalLoad()
-    }
 
     override open var cacheMode: NSImage.CacheMode {
         get {
