@@ -90,6 +90,16 @@ There are multiple options to include *ThemeKit* on your project:
   ```
   
   
+- **[Swift Package Manager](https://swift.org/package-manager/)**
+
+  Add it in Xcode via *File > Add Package Dependencies...* and enter the repository URL.
+
+  Then import ThemeKit module with:
+
+  ```swift
+  import ThemeKit
+  ```
+
 - **[Carthage](https://github.com/Carthage/Carthage)**
 
   ```
